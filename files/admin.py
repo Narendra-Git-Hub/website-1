@@ -28,6 +28,12 @@ class ReleaseAdmin(admin.ModelAdmin):
     date_hierarchy = 'date'
     list_display = ('version', 'stable', 'date')
     search_fields = ('version',)
+    
+    
+class ReleaseAdmin(admin.ModelAdmin):
+    date_hierarchy = 'date'
+    list_display = ('Lines', 'Rows', 'colloms')
+    search_fields = ('Table',)
 
 
 class DownloadAdmin(admin.ModelAdmin):
