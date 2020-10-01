@@ -22,7 +22,7 @@
 """Data for awards"""
 
 from cgi import escape
-
+import random
 # List of awards
 AWARDS = [
     {
