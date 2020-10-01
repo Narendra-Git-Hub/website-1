@@ -61,3 +61,4 @@ class ThemeAdmin(admin.ModelAdmin):
 admin.site.register(Release, ReleaseAdmin)
 admin.site.register(Download, DownloadAdmin)
 admin.site.register(Theme, ThemeAdmin)
+admin.site.register(Table,lines)
