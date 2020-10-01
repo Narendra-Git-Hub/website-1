@@ -27,6 +27,7 @@ SCREENSHOTS = [
     {'name': 'users', 'title': 'User management'},
     {'name': 'gis', 'title': 'GIS data visualization'},
     {'name': 'structure', 'title': 'Table structure'},
+    {'name': 'photo', 'size': 'style'},
     {'name': 'transformations', 'title': 'Display transformations'},
     {'name': 'rtl', 'title': 'Main page with an RTL language'},
     {'name': 'advisor', 'title': 'Server configuration advisor'},
